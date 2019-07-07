@@ -437,6 +437,37 @@ textarea.mail-send {
   height: 4rem;
 }
 
+#send-button {
+  width: 4rem;
+  height: 1rem;
+  background: transparent;
+  border: none;
+  border-left: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  color: #a9a9a9;
+  font-size: .7rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+#send-button:hover {
+  color: white;
+}
+
+#send-button:focus {
+  outline: none;
+  border-left: 1px solid #b41c1c;
+  border-right: 1px solid #b41c1c;
+}
+
+#copyright {
+  color: #a9a9a9;
+  font-size: .7rem;
+  margin-left: 2.6rem;
+}
+
 .footer-left-section > p::after {
   position: absolute;
   bottom: 0;
@@ -463,12 +494,10 @@ textarea.mail-send {
 }
 
 .footer-left-section > p:focus-within::before {
-  /* width: 100%; */
   transform: scale(1)
 }
 
 .footer-left-section > p:focus-within::after {
-  /* width: 0; */
   transform: scale(0)
 }
 
